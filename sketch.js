@@ -81,7 +81,7 @@ function draw() {
   
 
   //display the paricles 
-  for (var p = 0; p < divisions.length; p++) {
+  for (var p = 0; p < particles.length; p++) {
     particles[p].display();
   }
 }
