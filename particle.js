@@ -18,7 +18,7 @@ class Particle {
         rotate(this.body.angle);
         //fill("black");
         //stroke("red");
-        ellipse(0,0,this.body.r,this.body.r);
+        ellipse(0,0,this.radius,this.radius);
         pop()
     }
 }
